@@ -25,19 +25,13 @@ img {
     margin-right: auto;
     width: 10%;
     top: -35px;
-    /*max-width: 20%;*/
-    /*max-height: 20%;*/
-    /*margin-top:auto;*/
-    /*align-items: center;*/
-    /*top:0;*/
-    /*bottom:0;*/
-    /*left:0;*/
-    /*right:0;*/
+    filter: drop-shadow(0.5em 0.5em 0.8em grey);
 }
 
 body {
     margin: 0px;
     font-family: 'Stardos Stencil';
+    background-image: url('https://fr.freepik.com/photos-premium/plaque-metallique-aluminium-antiderapante-texture-fond-motif-diamant_12657567.htm#page=1&query=antiderapant&position=10');
 }
 
 .nav {
