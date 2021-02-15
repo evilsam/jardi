@@ -1,12 +1,25 @@
 * {
     box-sizing: border-box;
 }
+
 h1{
     font-family: 'Stardos Stencil';
+    font-weight: bold;
+    font-size: 60px;
+    align-items: center;
 }
+img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    top: -35px;
+}
+
 body {
     margin: 0px;
-    font-family: 'segoe ui';
+    font-family: 'Stardos Stencil';
 }
 
 .nav {
@@ -14,6 +27,7 @@ body {
     width: 100%;
     background-color: #4d4d4d;
     position: relative;
+    display: flex;
 }
 
 .nav > .nav-header {
