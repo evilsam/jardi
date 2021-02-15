@@ -2,12 +2,22 @@
     box-sizing: border-box;
 }
 
-h1{
+.ml15 {
     font-family: 'Stardos Stencil';
-    font-weight: bold;
-    font-size: 60px;
-    align-items: center;
+    color: #02AA50;
+    font-weight: 800;
+    font-size: 4.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em grey;
 }
+
+.ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+}
+
 img {
     position: relative;
     display: block;
@@ -15,6 +25,14 @@ img {
     margin-right: auto;
     width: 10%;
     top: -35px;
+    /*max-width: 20%;*/
+    /*max-height: 20%;*/
+    /*margin-top:auto;*/
+    /*align-items: center;*/
+    /*top:0;*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*right:0;*/
 }
 
 body {
