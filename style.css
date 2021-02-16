@@ -2,14 +2,6 @@
     box-sizing: border-box;
 }
 
-/*html{*/
-/*    margin:0;*/
-/*    padding:0;*/
-/*    background: url(metal.jpg) no-repeat center fixed;*/
-/*    -webkit-background-size: cover; !* pour anciens Chrome et Safari *!*/
-/*    background-size: cover;*/
-/*}*/
-
 img.superbg {
     position:fixed;
     top:0;
@@ -21,12 +13,11 @@ img.superbg {
     opacity: 0.5;
 }
 
-
 .ml15 {
     font-family: 'Stardos Stencil';
-    color: #02AA50;
+    color: #e40c12;
     font-weight: 800;
-    font-size: 4.0em;
+    font-size: 5.0em;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-align: center;
@@ -36,6 +27,7 @@ img.superbg {
 .ml15 .word {
     display: inline-block;
     line-height: 1em;
+    opacity: 1.5;
 }
 
 img {
@@ -43,7 +35,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 18%;
     top: -35px;
     filter: drop-shadow(0.5em 0.5em 0.8em grey);
 }
@@ -51,7 +43,6 @@ img {
 body {
     margin: 0px;
     font-family: 'Stardos Stencil';
-    background-image: url('https://fr.freepik.com/photos-premium/plaque-metallique-aluminium-antiderapante-texture-fond-motif-diamant_12657567.htm#page=1&query=antiderapant&position=10');
 }
 
 .nav {
