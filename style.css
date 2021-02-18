@@ -70,15 +70,15 @@ body {
 }
 
 .nav > .nav-links {
-    display: inline;
+    display: center;
     float: right;
     font-size: 18px;
-    top: 30px;
+    /*top: 30px;*/
 }
 
 .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
+    display: center;
+    padding: 0px 10px 13px 10px;
     text-decoration: none;
     color: #efefef;
 }
